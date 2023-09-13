@@ -11,8 +11,8 @@ attribute [-instance] Int.instDivInt_1 Int.instDivInt EuclideanDomain.instDiv Na
 
 
 /- 5 points -/
-theorem problem1 {p q : ℤ} (h1 : p + 4 * q = 1) (h2 : q - 1 = 2) : p = -11 := by
-  sorry
+theorem problem1 {p q : ℤ} (h1 : p + 4 * q = 1) (h2 : q - 1 = 2) : p = -11 := 
+
 
 /- 5 points -/
 theorem problem2 {a b : ℝ} (h1 : a + 2 * b = 4) (h2 : a - b = 1) : a = 2 := by
